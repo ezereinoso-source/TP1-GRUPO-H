@@ -19,6 +19,10 @@ body {
     padding: 0 1rem;
 }
 
+.mi-nav-personalizada{
+    background-color: var(--verde-oscuro) !important;
+}
+
 header {
     background-color: var(--verde-oscuro);
     color: #f4f3ef;
@@ -32,13 +36,11 @@ nav ul{
     margin-top: 0.5rem;
 }
 
-nav a {
-    color: var(--verde-claro);
-    text-decoration: none;
-    font-weight: 600;
+.mi-nav-personalizada .navbar-nav .nav-link {
+    color: var(--verde-claro) !important;
 }
-nav a:hover {
-    color:#f9faf7
+.mi-nav-personalizada .navbar-nav .nav-link:hover {
+  color:#f9faf7 !important;
 }
 .secciones{
   display:flex;
